@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Page</title>
+    <title>Index Page</title>
 </head>
-<frameset cols="150,*">
-    <frame name="side" src="index.html" />
-    <frameset cols="100%, *">
-        <frame name="main" src="ECE.html" />
-        <noframes>
+<body>
+    <style>
+        *{
+            background-color: rgb(225, 240, 21);
+        }
+        li{
+            font-size: 22px;
+            font-weight: 700;
+        }
+    </style>
+    <div>
+        <ul>
+            <li> <a href="ECE.html" target="main">ECE</a> </li>
+            <li> <a href="IT.html" target="main">IT</a> </li>
 
-            <body></body>
-        </noframes>
-    </frameset>
-
+        </ul>
+    </div>
+</body>
 </html>
